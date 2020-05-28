@@ -46,9 +46,10 @@ class about(Tk):
         l3.bind('<Button-1>',self.facebook)
 
     def github(self,event):
-        webbrowser.open("https://github.com/",new=2)
+        webbrowser.open("https://github.com/github-raiyan/DIU_bus_route_information_management_system",new=2)
 
     def linkedin(self,event):
-        webbrowser.open("https://www.linkedin.com/feed/",new=2)
+        webbrowser.open("https://www.linkedin.com/in/raiyan-hossain-330924174/",new=2)
     def facebook(self,event):
         webbrowser.open("https://www.facebook.com/rayhan724",new=2)
+
