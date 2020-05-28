@@ -33,7 +33,7 @@ class addBus(Tk):
     def listStands(self):
         f=Frame(self,width=150,height=250,bg="#29AFEC")
         f.place(x=500,y=30)
-        Label(f,text="List of bus stands",bg="lightgreen",padx=10,pady=10,font="Arial 11 bold").pack(side=TOP,pady=3)
+        Label(f,text="List of bus stands",bg="lightgreen",padx=10,pady=10,font="Arial 11 bold").pack(side=TOP)
 
         self.lst=Listbox(f,selectmode=SINGLE,selectbackground="orange")
         self.lst.pack()

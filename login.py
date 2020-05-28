@@ -99,9 +99,9 @@ class Login(Tk):
 
 
 
-        Button(self, text="Log in", font="Arial 11 ", activebackground="springGreen3", bg="springGreen3", fg="white",
+        Button(self, text="Log in", font="Arial 10", activebackground="springGreen3", bg="springGreen3", fg="white",
                activeforeground="white", bd=0, command=self.passCheck,padx=16).place(x=350, y=280)
-        Button(self, text="Sign up", font="Arial 11 ", activebackground="steelblue3", bg="steelblue3", fg="white",
+        Button(self, text="Sign up", font="Arial 10", activebackground="#2196F3", bg="#2196F3", fg="white",
                activeforeground="white", bd=0, command=self.signUP).place(x=505, y=280)
 
 
